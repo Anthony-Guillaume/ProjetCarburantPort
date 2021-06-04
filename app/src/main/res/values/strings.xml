@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">BateauBreton</string>
+
+    <string name="preference_file_key">USER_PREFERENCE5467822</string>
+    <string name="remember_me_key">REMEMBER_ME767822</string>
+    <string name="local_user">LOCAL_USER767822</string>
+
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up_succeed">Email was send to confirm your account. Please check your mailbox.</string>
+    <string name="sign_up_invalid">Invalid field</string>
+    <string name="sign_in_invalid">Invalid field</string>
+    <string name="remember_me">Remember me</string>
+    <string name="email">Email</string>
+    <string name="pseudo">Pseudo</string>
+    <string name="my_position">My position</string>
+    <string name="password">Password</string>
+    <string name="dismiss_button">Understood</string>
+    <string name="refresh_position">Refresh position</string>
+    <string name="validate">Validate</string>
+    <string name="cancel">Cancel</string>
+    <string name="ask_permission_button">Retry</string>
+    <string name="missing_permission_explanation">Can\'t work without your permission</string>
+    <string name="search_radius">Search radius</string>
+    <string name="latitude_format">Latitude: %1$.2f</string>
+    <string name="longitude_format">Longitude: %1$.2f</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="diesel">Diesel</string>
+    <string name="Port">Port</string>
+    <string name="sp98">sp98</string>
+    <string name="distance">Distance</string>
+
+    <string-array name="distance_units">
+        <item>Km</item>
+        <item>Nautical miles</item>
+    </string-array>
+
+    <string-array name="price_type">
+        <item>sp98</item>
+        <item>diesel</item>
+    </string-array>
+
+</resources>
