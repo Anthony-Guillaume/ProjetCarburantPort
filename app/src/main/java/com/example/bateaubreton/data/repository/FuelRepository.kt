@@ -39,12 +39,10 @@ class FuelRepository private constructor(private val dao: FuelDao) {
         ChangeFuel.execute(object : ChangeFuel.Result {
             override fun onSuccess(data: Int)
             {
-                Log.i("TEST", "data=$data")
             }
 
             override fun onFailure(error: VolleyError)
             {
-                Log.i("TEST", "error=$error")
             }
         }, fuel)
     }

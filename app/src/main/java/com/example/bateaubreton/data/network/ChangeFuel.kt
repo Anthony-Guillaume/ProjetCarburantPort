@@ -28,7 +28,6 @@ object ChangeFuel
             url,
             JSONObject(params),
             { response ->
-                Log.i("TEST", response.toString())
 //                val data: Int = response.toString().toInt()
 //                result.onSuccess(data)
             },

@@ -23,13 +23,11 @@ object AddUser
     fun execute(result: Result, user: User)
     {
         val params: String = jsonFormat.encodeToString(user)
-        Log.i("TEST", params)
         val request = JsonObjectRequest(
             Request.Method.PUT,
             url,
             JSONObject(params),
             { response ->
-                Log.i("TEST", response.toString())
 //                val data: Int = response.toString().toInt()
 //                result.onSuccess(data)
             },

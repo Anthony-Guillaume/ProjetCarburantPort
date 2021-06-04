@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_disconnect">Déconnexion</string>
+    <string name="sign_up">S\'inscrire</string>
+    <string name="sign_in">Se connecter</string>
+    <string name="sign_up_succeed">Un mail vous a été envoyé pour comfirmier votre compte.</string>
+    <string name="sign_up_invalid">Champs invalides</string>
+    <string name="sign_in_invalid">Champs invalides</string>
+    <string name="remember_me">Se souvenir de moi</string>
+    <string name="email">Mail</string>
+    <string name="pseudo">Pseudo</string>
+    <string name="my_position">Ma position</string>
+    <string name="password">Mot de passe</string>
+    <string name="dismiss_button">Compris</string>
+    <string name="refresh_position">Rafraîchir</string>
+    <string name="validate">Valider</string>
+    <string name="cancel">Annuler</string>
+    <string name="ask_permission_button">Réessayer</string>
+    <string name="missing_permission_explanation">L\'application a besoin de votre permission pour fonctionner.</string>
+    <string name="search_radius">Rayon de recherche</string>
+    <string name="latitude_format">Latitude: %1$.2f</string>
+    <string name="longitude_format">Longitude: %1$.2f</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="diesel">Gazole</string>
+    <string name="Port">Port</string>
+    <string name="sp98">sp98</string>
+    <string name="distance">Distance</string>
+</resources>

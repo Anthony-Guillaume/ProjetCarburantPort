@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">BateauBreton</string>
+    <string name="app_name" translatable="false">BateauBreton</string>
 
-    <string name="preference_file_key">USER_PREFERENCE5467822</string>
-    <string name="remember_me_key">REMEMBER_ME767822</string>
-    <string name="local_user">LOCAL_USER767822</string>
+    <string name="preference_file_key" translatable="false">USER_PREFERENCE5467822</string>
+    <string name="remember_me_key" translatable="false">REMEMBER_ME767822</string>
+    <string name="local_user" translatable="false">LOCAL_USER767822</string>
 
     <string name="menu_disconnect">Disconnect</string>
 
@@ -18,7 +18,7 @@
     <string name="my_position">My position</string>
     <string name="password">Password</string>
     <string name="dismiss_button">Understood</string>
-    <string name="refresh_position">Refresh position</string>
+    <string name="refresh_position">Refresh</string>
     <string name="validate">Validate</string>
     <string name="cancel">Cancel</string>
     <string name="ask_permission_button">Retry</string>
