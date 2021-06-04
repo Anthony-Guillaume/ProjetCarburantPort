@@ -4,7 +4,6 @@ import com.android.volley.Request
 import com.android.volley.VolleyError
 import com.android.volley.toolbox.JsonArrayRequest
 import com.example.bateaubreton.data.entity.Fuel
-import com.example.bateaubreton.data.entity.User
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 

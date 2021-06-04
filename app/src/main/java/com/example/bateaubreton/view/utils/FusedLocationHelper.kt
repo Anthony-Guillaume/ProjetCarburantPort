@@ -7,7 +7,10 @@ import android.location.Location
 import android.os.Looper
 import android.provider.Settings
 import android.widget.Toast
-import com.google.android.gms.location.*
+import com.google.android.gms.location.FusedLocationProviderClient
+import com.google.android.gms.location.LocationCallback
+import com.google.android.gms.location.LocationRequest
+import com.google.android.gms.location.LocationResult
 
 class FusedLocationHelper(private val fusedLocationClient: FusedLocationProviderClient)
 {

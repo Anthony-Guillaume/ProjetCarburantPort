@@ -5,6 +5,8 @@
     <string name="remember_me_key">REMEMBER_ME767822</string>
     <string name="local_user">LOCAL_USER767822</string>
 
+    <string name="menu_disconnect">Disconnect</string>
+
     <string name="sign_up">Sign Up</string>
     <string name="sign_in">Sign in</string>
     <string name="sign_up_succeed">Email was send to confirm your account. Please check your mailbox.</string>

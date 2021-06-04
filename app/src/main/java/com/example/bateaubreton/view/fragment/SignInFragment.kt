@@ -54,7 +54,7 @@ class SignInFragment : Fragment(R.layout.fragment_sign_in)
             userValid.observe(viewLifecycleOwner) {
                 if (it)
                 {
-                    findNavController().navigate(R.id.action_signInFragment_to_fuelInformationFragment)
+                    findNavController().navigate(R.id.action_signInFragment_to_portFragment)
                 }
                 else
                 {

@@ -1,6 +1,5 @@
 package com.example.bateaubreton.data.repository
 
-import android.util.Log
 import com.android.volley.VolleyError
 import com.example.bateaubreton.data.dao.UserDao
 import com.example.bateaubreton.data.entity.User
@@ -24,13 +23,11 @@ class UserRepository private constructor(private val dao: UserDao)
             AddUser.execute(object : AddUser.Result {
                 override fun onSuccess(data: Int)
                 {
-                    Log.i("TEST", "data=$data")
                     continuation.resume(true)
                 }
 
                 override fun onFailure(error: VolleyError)
                 {
-                    Log.i("TEST", "error=$error")
                     continuation.resume(false)
                 }
             }, user)

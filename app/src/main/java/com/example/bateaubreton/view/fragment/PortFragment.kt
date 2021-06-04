@@ -6,15 +6,16 @@ import android.text.TextWatcher
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
-import android.widget.Toolbar
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
 import com.example.bateaubreton.R
 import com.example.bateaubreton.databinding.FragmentPortBinding
 import com.example.bateaubreton.view.adapter.PortLocationAdapter
 import com.example.bateaubreton.view.dialog.EditPriceDialog
 import com.example.bateaubreton.viewModel.PortViewModel
 import com.example.bateaubreton.viewModel.ViewModelProvider
+import com.google.android.material.appbar.MaterialToolbar
 
 class PortFragment : Fragment(R.layout.fragment_port)
 {
@@ -45,25 +46,13 @@ class PortFragment : Fragment(R.layout.fragment_port)
 
     private fun initToolbar()
     {
-        val toolbar: Toolbar = binding.toolbar
-        toolbar.inflateMenu(R.menu.create_scenario_steps_menu)
-        toolbar.setNavigationIcon(androidx.appcompat.R.drawable.abc_ic_ab_back_material)
-        toolbar.setNavigationOnClickListener { v ->
-            Navigation.findNavController(requireView()).navigate(R.id.action_createScenarioStepsFragment_to_createScenarioFragment)
-        }
+        val toolbar: MaterialToolbar = binding.toolbar
+        toolbar.inflateMenu(R.menu.menu_fragment_port)
         toolbar.setOnMenuItemClickListener {
             when (it.itemId)
             {
-                R.id.action_save -> {
-                    save()
-                    true
-                }
-                R.id.action_add_tasks_list -> {
-                    addTask()
-                    true
-                }
-                R.id.action_add_message -> {
-                    addMessage()
+                R.id.action_disconnect -> {
+                    findNavController().navigate(R.id.action_portFragment_to_signInFragment)
                     true
                 }
                 else -> super.onOptionsItemSelected(it)

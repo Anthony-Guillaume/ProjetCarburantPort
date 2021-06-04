@@ -4,13 +4,14 @@
 
     <item
         android:id="@+id/action_add"
-        app:showAsAction="always"
-        android:title="TODO">
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_more_vert_24"
+        android:title="" >
         <menu>
             <item
                 android:id="@+id/action_disconnect"
-                android:title="Liste de tâches"
-                app:showAsAction="never"/>
+                app:showAsAction="never"
+                android:title="@string/menu_disconnect" />
         </menu>
     </item>
 
